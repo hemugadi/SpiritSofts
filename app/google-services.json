@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "388925602466",
+    "firebase_url": "https://spiritsofts-80be9.firebaseio.com",
+    "project_id": "spiritsofts-80be9",
+    "storage_bucket": "spiritsofts-80be9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388925602466:android:adb6b88c7e8e49d9",
+        "android_client_info": {
+          "package_name": "com.spiritsofts.onlinetraining.spiritsofts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388925602466-cjel9gvm2cb9c3o1btth2dj4lgdi4vls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spiritsofts.onlinetraining.spiritsofts",
+            "certificate_hash": "d1c8bc1a2fe44c18b9b0f439c157514961dc3511"
+          }
+        },
+        {
+          "client_id": "388925602466-ok49prda4l1p7noshljgbipeum8saasr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt0SVvkmYuR6VudUOMEas6LdFKZjvexbs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388925602466-ok49prda4l1p7noshljgbipeum8saasr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
