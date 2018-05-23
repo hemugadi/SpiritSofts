@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.spiritsofts.onlinetraining.spiritsofts.R;
@@ -16,16 +17,16 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.MyViewHo
     private List<Subject> subjectList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView title, duration, price;
+        public TextView title, duration;
+        public ImageView thumbnail;
 
         public MyViewHolder(View view) {
             super(view);
             title = (TextView) view.findViewById(R.id.title);
             duration = (TextView) view.findViewById(R.id.duration);
-            price = (TextView) view.findViewById(R.id.price);
+            thumbnail = (ImageView)view.findViewById(R.id.thumbnail);
         }
     }
-
 
     public SubjectAdapter(List<Subject> subjectList) {
         this.subjectList = subjectList;
@@ -35,7 +36,6 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.MyViewHo
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.subject_list_row, parent, false);
-
         return new MyViewHolder(itemView);
     }
 
@@ -44,7 +44,8 @@ public class SubjectAdapter extends RecyclerView.Adapter<SubjectAdapter.MyViewHo
         Subject subject = subjectList.get(position);
         holder.title.setText(subject.getTitle());
         holder.duration.setText(subject.getDuration());
-        holder.price.setText(subject.getPrice());
+        holder.thumbnail.setImageDrawable(subject.getThumbnail());
+
     }
 
     @Override
