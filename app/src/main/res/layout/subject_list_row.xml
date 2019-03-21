@@ -27,7 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
-                android:src="@drawable/microsoft_azure_training"
+                android:src="@drawable/rpa"
                 android:clickable="true"
                 android:scaleType="fitXY" />
 

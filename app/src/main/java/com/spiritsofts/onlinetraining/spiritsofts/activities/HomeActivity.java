@@ -42,64 +42,64 @@ public class HomeActivity extends AppCompatActivity {
     private void prepareCategoryData() {
         List<Subject> subjectList = new ArrayList<>();
 
-        Subject subject = new Subject("Mad Max", "Action", getResources().getDrawable(R.drawable.essbase));
+        Subject subject = new Subject("Mad Max", "Action", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Inside Out", "Animation",getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Inside Out", "Animation",getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Star Wars", "Action", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Star Wars", "Action", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Shaun the Sheep", "Animation", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Shaun the Sheep", "Animation", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
         Category category = new Category("ORACLE HYPERION",subjectList );
         categoryList.add(category);
         //subjectList.clear();
 
-        subject = new Subject("The Martian", "Science Fiction", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("The Martian", "Science Fiction", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Mission: Impossible", "Action", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Mission: Impossible", "Action", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Up", "Animation", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Up", "Animation", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Star Trek", "Science Fiction",getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Star Trek", "Science Fiction",getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
         category = new Category("SAP MODULES",subjectList );
         categoryList.add(category);
        // subjectList.clear();
 
-        subject = new Subject("The LEGO Subject", "Animation", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("The LEGO Subject", "Animation", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Iron Man", "Action & Adventure", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Iron Man", "Action & Adventure", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Aliens", "Science Fiction", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Aliens", "Science Fiction", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Chicken Run", "Animation", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Chicken Run", "Animation", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
         category = new Category("ORACLE APPS",subjectList );
         categoryList.add(category);
        // subjectList.clear();
 
-        subject = new Subject("Back to the Future", "Science Fiction", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Back to the Future", "Science Fiction", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Raiders of the Lost Ark", "Action", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Raiders of the Lost Ark", "Action", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Goldfinger", "Action", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Goldfinger", "Action", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
-        subject = new Subject("Guardians of the Galaxy", "Science Fiction", getResources().getDrawable(R.drawable.essbase));
+        subject = new Subject("Guardians of the Galaxy", "Science Fiction", getResources().getDrawable(R.drawable.rpa));
         subjectList.add(subject);
 
         category = new Category("IBM",subjectList );
